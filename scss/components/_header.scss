@@ -1,0 +1,39 @@
+header{
+  
+    .container{
+        padding-top: 10px;
+        .mobile{
+            .app__advertisement{
+           
+                display: flex;
+                justify-content: space-between;
+                .add__left__content{
+                    display: flex;
+                    gap: 3px;
+                    align-items: center;
+                    p{
+                        font-size: 12px;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .dowload__btn{
+                    padding: 0 12px;
+                    background-color: $purple;
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width:960px){
+    header{
+        .container{
+            .mobile{
+                display: none;
+            }
+        }
+    }
+}

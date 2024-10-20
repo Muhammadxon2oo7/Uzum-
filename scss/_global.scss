@@ -13,9 +13,17 @@ ul,li{
 a{
     text-decoration: none;
 }
+button{
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+input{
+    outline: none;
+}
 .container{
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 

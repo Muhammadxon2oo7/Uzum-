@@ -18,8 +18,57 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+}
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 10px;
+}
+
+header .container {
+  padding-top: 10px;
+}
+header .container .mobile .app__advertisement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .container .mobile .app__advertisement .add__left__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .container .mobile .app__advertisement .add__left__content p {
+  font-size: 12px;
+}
+header .container .mobile .app__advertisement .add__left__content p span {
+  font-size: 10px;
+}
+header .container .mobile .app__advertisement .dowload__btn {
+  padding: 0 12px;
+  background-color: #9747ff;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 960px) {
+  header .container .mobile {
+    display: none;
+  }
 }
