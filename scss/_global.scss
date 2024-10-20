@@ -3,9 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Inter", sans-serif;
+}
+
 ul,li{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
